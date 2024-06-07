@@ -13,7 +13,7 @@ test('practica',()=>{
     expect(bucle(500,0)).toBe(5);    
 });
 
-test('sentencia',()=>{
+test('Prueba de Sentencia y Desicion',()=>{
     expect(Sentencia(1300)).toBe("Hay mucho dinero");
     expect(Sentencia(500)).toBe("Hay poco dinero");
     expect(Sentencia(0)).toBe("No hay dinero ni deuda");
