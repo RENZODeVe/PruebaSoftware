@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1717790402650" clover="3.2.0">
-  <project timestamp="1717790402650" name="All files">
-    <metrics statements="18" coveredstatements="18" conditionals="12" coveredconditionals="12" methods="3" coveredmethods="3" elements="33" coveredelements="33" complexity="0" loc="18" ncloc="18" packages="1" files="3" classes="3"/>
-    <file name="PruebaSentencia.js" path="D:\CURSOS 2024-I\Pruebas de Software\PS\PruebaSoftware\src\controllers\PruebaSentencia.js">
-      <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+<coverage generated="1719019765482" clover="3.2.0">
+  <project timestamp="1719019765482" name="All files">
+    <metrics statements="16" coveredstatements="16" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3" elements="29" coveredelements="29" complexity="0" loc="16" ncloc="16" packages="1" files="3" classes="3"/>
+    <file name="AnalisisValorLimite.js" path="D:\CURSOS 2024-I\Pruebas de Software\PS\PruebaSoftware\src\controllers\AnalisisValorLimite.js">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <line num="3" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="4" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="3" type="cond" truecount="2" falsecount="0"/>
       <line num="5" count="1" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="13" count="1" type="stmt"/>
-      <line num="16" count="1" type="stmt"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
     </file>
     <file name="bucle.js" path="D:\CURSOS 2024-I\Pruebas de Software\PS\PruebaSoftware\src\controllers\bucle.js">
       <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>

@@ -1,6 +1,6 @@
 import suma from "../controllers/suma.js";
 import bucle from "../controllers/bucle.js";
-import Sentencia from "../controllers/PruebaSentencia.js";
+import limite from "../controllers/AnalisisValorLimite.js";
 
 test('suma',()=>{
     expect(suma(1,5)).toBe(6);
@@ -12,10 +12,13 @@ test('practica',()=>{
     expect(bucle(0,0)).toBe(0);
     expect(bucle(500,0)).toBe(5);    
 });
-
-test('Prueba de Sentencia y Desicion',()=>{
-    expect(Sentencia(1300)).toBe("Hay mucho dinero");
-    expect(Sentencia(500)).toBe("Hay poco dinero");
-    expect(Sentencia(0)).toBe("No hay dinero ni deuda");
-    expect(Sentencia(-200)).toBe("Hay deuda");
-});
+//Análisis de valor límite
+//Inválido [-infinito,0]
+//Válido [1,1000]
+//Inválido [1001,infinito]
+test('limite',()=>{
+    expect(limite(0)).toBe("Hay deuda");
+    expect(limite(1)).toBe("Hay poco dinero");
+    expect(limite(1000)).toBe("Hay poco dinero");
+    expect(limite(1001)).toBe("Hay mucho dinero");
+}); 
