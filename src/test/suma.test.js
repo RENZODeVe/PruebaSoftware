@@ -17,8 +17,8 @@ test('practica',()=>{
 //Válido [1,1000]
 //Inválido [1001,infinito]
 test('limite',()=>{
-    expect(limite(0)).toBe("Hay deuda");
-    expect(limite(1)).toBe("Hay poco dinero");
-    expect(limite(1000)).toBe("Hay poco dinero");
-    expect(limite(1001)).toBe("Hay mucho dinero");
+    expect(limite(0)).toBe("deuda");
+    expect(limite(1)).toBe("poco dinero");
+    expect(limite(1000)).toBe("poco dinero");
+    expect(limite(1001)).toBe("mucho dinero");
 }); 
